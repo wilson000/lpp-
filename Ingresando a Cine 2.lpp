@@ -1,0 +1,15 @@
+entero c
+inicio
+ escriba "ingresando a cine"
+ llamar nueva_linea
+ escriba "favor presentar cedula"
+ lea c
+ si (c>17) entonces
+ escriba "ingresa a peliculas nenas"
+ sino
+ si (c<12) entonces 
+ sino
+ escriba "ingresa a peliculas adolescente"
+ fin si 
+ fin si
+Fin
