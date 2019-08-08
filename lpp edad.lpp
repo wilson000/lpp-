@@ -1,0 +1,11 @@
+real a,m,v
+inicio
+	escriba "sumando dos numeros"
+	a<-25
+	m<-15
+	v<-a+m
+	escriba "la suma es"
+	llamar nueva_linea
+	escriba v
+fin
+	
