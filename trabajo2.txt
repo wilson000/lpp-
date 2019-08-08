@@ -1,0 +1,12 @@
+entero c
+inicio	
+escriba "ingresando a cine"
+llamar nueva_linea
+escriba "favor presentar cedula"
+lea c
+si (c<18) entonces
+escriba "ingresa apeliculas bebes"
+sino
+escriba "ingresa apeliculas nenas"	
+fin si
+fin
