@@ -1,0 +1,13 @@
+Real A, B, C
+Inicio
+Escriba "Sumando Dos Numeros Ingresados Por El Teclado"
+Llamar Nueva_Linea
+Escriba "Ingrese el primer numero:"
+Lea A
+Escriba "Ingrese el segundo numero:"
+Lea B
+C <- A+B
+Escriba "La Suma de  ",A, " mas  ",B," es:  ", C
+Llamar Nueva_Linea
+Escriba "La suma de A que es  ",A, " mas B que es ",B,"  es:  ", C
+Fin
