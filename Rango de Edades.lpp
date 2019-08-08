@@ -1,0 +1,49 @@
+Entero C
+Inicio
+ Escriba "Rango de edades"
+
+ Llamar Nueva_Linea
+ 
+ Escriba "Favor Presentar Cedula"
+
+ Lea C
+  
+  Si (C>90) Entonces 
+  Escriba "Anciano"
+  Sino
+
+   Si (C>65) y (C>=90) Entonces
+   Escriba "Tercera Edad"
+   Sino
+   
+    Si(C<60) Y (C>40) Entonces 
+    Escriba "Adulto Mayor"
+    sino
+    
+     Si(C<40) Y (C>17) Entonces
+     Escriba "Adulto"
+     sino
+   
+      Si(C<17) Y (C>15) Entonces
+      Escriba "Joven"
+      sino
+     
+       Si(C<15) Y (C>10) Entonces
+       Escriba "Adolescente"
+       sino
+       
+        Si(C<10) Y (C>1) Entonces
+        Escriba "Niño"
+        sino
+      
+        Si(C=1) Entonces
+        Escriba "Bebe"
+ Fin si
+ Fin si
+ Fin si
+ Fin si
+ Fin si
+ Fin si
+ Fin si
+ Fin si
+Fin
