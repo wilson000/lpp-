@@ -1,0 +1,16 @@
+Entero C
+Inicio
+ Escriba "Ingresando A Cine"
+ Llamar Nueva_Linea
+ Escriba "Favor Presentar Cedula"
+ Lea C
+ Si (C>17) Entonces
+ Escriba "Ingresa a Peliculas Nenas"
+ sino 
+ Si (C<12) Entonces
+ Escriba "ingresa Peliculas Bebes"
+ Sino
+ Escriba "Ingresa a Peliculas Adolescentes"
+ Fin Si
+ Fin Si 
+Fin
