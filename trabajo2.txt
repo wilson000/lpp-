@@ -10,3 +10,11 @@ sino
 escriba "ingresa apeliculas nenas"	
 fin si
 fin
+
+ingresando  a cine
+llamarnueva linea 
+escriba favor presentar cedula
+lea c 
+si(<17) entonces
+escriba ingrese a pelicula nenas
+si 
