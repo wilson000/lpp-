@@ -5,10 +5,10 @@ llamar nueva_linea
 escriba "favor presentar cedula"
 lea c
 si (c>90) entonces
-escriba "ingresa apeliculas nenas"
+escriba "ingresa a peliculas nenas"
 sino
 si(c>65) y (c<=90)entonces
-escriba "ingresa apeliculas accion"
+escriba "ingresa a peliculas accion"
 sino
 si(c<60)y(c>40)entonces
 escriba "ingrese a peliculas amor"
@@ -17,10 +17,10 @@ si(c<40) y (c>17)entonces
 escriba "ingresa a peliculas adultos"
 sino
 si (c<17)y(c>15)entonces
-escriba "ingresa a adolecente"
+escriba "ingresa a películas de adolescentes"
 sino
 si(c<10)y(c>1)entonces
-escriba "ingresa ni�os"
+escriba "ingresa niños"
 sino
 si(c<=1)entonces
 escriba "ingresa a bebes"	
