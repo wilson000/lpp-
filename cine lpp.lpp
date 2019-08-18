@@ -1,12 +1,12 @@
-entero c
+entero v
 inicio
 	escriba "Ingresando a cine"
 	llamar nueva_linea
 	llamar nueva_linea
 	escriba "Favor presenta cedula "
 	llamar nueva_linea
-	lea c
-		si c<18 entonces
+	lea v
+		si v<18 entonces
 			llamar nueva_linea
 			escriba "Ingesa pelicula bebes"
 		sino
