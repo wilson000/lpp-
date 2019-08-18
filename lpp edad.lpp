@@ -1,8 +1,8 @@
 real a,m,v
 inicio
 	escriba "sumando dos numeros"
-	a<-25
-	m<-15
+	a<-50
+	m<-30
 	v<-a+m
 	escriba "la suma es"
 	llamar nueva_linea
