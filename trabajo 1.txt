@@ -7,5 +7,5 @@ lea a
 escriba "ingrese el segundo numero"
 lea b	
 c<-a+b
-escriba "la suma de",a,"mas",b,"es:",c
+escriba "la suma de",a,"mas",b,"es:",c /*No sé si esté bien*/
 fin
