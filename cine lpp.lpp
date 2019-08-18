@@ -4,6 +4,7 @@ inicio
 	llamar nueva_linea
 	llamar nueva_linea
 	escriba "Favor presenta cedula "
+	llamar nueva_linea
 	lea c
 		si c<18 entonces
 			llamar nueva_linea
