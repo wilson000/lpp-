@@ -1,4 +1,4 @@
-Entero C
+Entero D
 Inicio
  Escriba "Rango de edades"
 
@@ -6,37 +6,37 @@ Inicio
  
  Escriba "Favor Presentar Cedula"
 
- Lea C
+ Lea D
   
-  Si (C>90) Entonces 
+  Si (D>90) Entonces 
   Escriba "Anciano"
   Sino
 
-   Si (C>65) y (C>=90) Entonces
+   Si (D>65) y (D>=90) Entonces
    Escriba "Tercera Edad"
    Sino
    
-    Si(C<60) Y (C>40) Entonces 
+    Si(D<60) Y (D>40) Entonces 
     Escriba "Adulto Mayor"
     sino
     
-     Si(C<40) Y (C>17) Entonces
+     Si(D<40) Y (D>17) Entonces
      Escriba "Adulto"
      sino
    
-      Si(C<17) Y (C>15) Entonces
+      Si(D<17) Y (D>15) Entonces
       Escriba "Joven"
       sino
      
-       Si(C<15) Y (C>10) Entonces
+       Si(D<15) Y (D>10) Entonces
        Escriba "Adolescente"
        sino
        
-        Si(C<10) Y (C>1) Entonces
-        Escriba "Niño"
+        Si(D<10) Y (D>1) Entonces
+        Escriba "NiÃ±o"
         sino
       
-        Si(C=1) Entonces
+        Si(D=1) Entonces
         Escriba "Bebe"
  Fin si
  Fin si
