@@ -1,10 +1,10 @@
 real a,m,v
 inicio
-	escriba "sumando dos numeros"
+	escriba "restando dos numeros"
 	a<-50
 	m<-30
-	v<-a+m
-	escriba "la suma es"
+	v<-a-m
+	escriba "la resta es"
 	llamar nueva_linea
 	escriba v
 fin
