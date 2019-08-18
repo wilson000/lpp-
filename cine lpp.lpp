@@ -3,12 +3,12 @@ inicio
 	escriba "Ingresando a cine"
 	llamar nueva_linea
 	llamar nueva_linea
-	escriba "Favor presenta cedula "
+	escriba "Presente su cedula por favor "
 	llamar nueva_linea
 	lea v
 		si v<18 entonces
 			llamar nueva_linea
-			escriba "Ingesa pelicula bebes"
+			escriba "Ingesa pelicula niños"
 		sino
 			llamar nueva_linea
 			escriba "Ingresa pelicula nenas"
