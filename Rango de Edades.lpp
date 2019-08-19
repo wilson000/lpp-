@@ -35,9 +35,15 @@ Inicio
         Si(D<10) Y (D>1) Entonces
         Escriba "Niño"
         sino
-      
+        
+        
         Si(D=1) Entonces
         Escriba "Bebe"
+        
+        si (d<60)y d (>7) entonces
+        escriba " publico general"
+        sino
+        
  Fin si
  Fin si
  Fin si
