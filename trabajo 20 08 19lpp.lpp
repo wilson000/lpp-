@@ -1,0 +1,68 @@
+entero numero1 ,g
+cadena [2] c
+caracter i
+real numero2, a, b, d
+inicio
+/*mientras 521 exito*/
+escriba "ingrese un numeo entero "
+llamar nueva_linea 
+lea numero1
+	mientras (numero1=521) haga 
+		escriba "exito "
+		llamar nueva_linea
+		llamar nueva_linea 
+		escriba "ingrese un numero entero "
+		llamar nueva_linea
+		lea numero1 
+	fin mientras 
+			escriba "------------------------------------------"
+			/*c minuscula a mayuscula * o - */
+			llamar nueva_linea
+			escriba "digite c o C para multiplicar "
+			llamar nueva_linea 
+			lea c
+			si (c= "c") o (c="C") entonces 
+				escriba "ingrese el primer numero "
+				llamar nueva_linea 
+				lea a
+				escriba "ingrese el segundo numero "
+				llamar nueva_linea 
+				lea b
+				d <-a*b
+				escriba "su multiplicacion es " ,d
+				sino 
+					escriba "ingrese el primer numero "
+					llamar nueva_linea 
+					lea a
+					escriba "ingrese el segundo numero "
+					llamar nueva_linea 
+					lea b
+					d <-a-b
+					escriba "su resta es " ,d
+				fin si
+				llamar nueva_linea
+				escriba "------------------------------------------"
+				/*numeros pares hasta 10*/
+				llamar nueva_linea 
+				escriba "digite z o Z para sumar pares asta 10 "
+				llamar nueva_linea 
+				lea i
+				si (i= 'z' ) o (i= 'Z' ) entonces 
+				para g<-1 hasta 10 haga
+				g<-g+1
+				llamar nueva_linea
+				escriba g
+				fin para 
+				sino 
+				escriba "digitacion herrada"
+				fin si 
+					llamar nueva_linea 
+					escriba "------------------------------------------"
+					/*numero * 10*/
+					llamar nueva_linea
+					escriba "digite un numero para multiplicarlo por 10  "
+					llamar nueva_linea 
+					lea numero2
+					escriba "su resultado es  " ,(numero2*10) 				
+
+fin
